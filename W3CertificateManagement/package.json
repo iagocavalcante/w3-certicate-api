@@ -1,0 +1,9 @@
+{
+  "name": "w3-certificate-management",
+  "version": "0.0.0",
+  "description": "W3CertificateManagement",
+  "main": "server.js",
+  "author": {
+    "name": "Tron"
+  }
+}
