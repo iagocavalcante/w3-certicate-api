@@ -5,10 +5,7 @@ const _schema = {
 	name: { type: String, required: true }
     , last_name: { type: String, required: true }
     , phone_number: { type: String, required: true }
-    , type: [
-        'Student',
-        'Teacher'
-    ]
+    , type: { type: String, required: true }
 	, created_at: Date
 	, updated_at: Date
 }

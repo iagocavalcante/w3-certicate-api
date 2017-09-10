@@ -2,7 +2,7 @@
 
 const dbName = 'mongodb://root-api:a1s2d3f4A!@ds129144.mlab.com:29144/heroku_wtlfkl14'
 
-Mongoose.connect(dbName)
+Mongoose.connect(dbName, { useMongoClient: true })
 Mongoose.Promise = global.Promise
 const db = Mongoose.connection
 
