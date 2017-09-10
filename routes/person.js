@@ -30,7 +30,7 @@ module.exports = [
             })
         }
     },
-// Get categorie by id
+    // Pega Pessoa por id
     {
         method: 'GET',
         path: URI + `/{id}`,
@@ -55,7 +55,7 @@ module.exports = [
         }
     },
 
-    // Create a new categorie
+    // Cria nova Pessoa
     {
         method: 'POST',
         path: URI,
@@ -98,7 +98,7 @@ module.exports = [
         }
     },
 
-    // Update a categorie by id
+    //Atualiza pessoa por id
     {
         method: 'PUT',
         path: URI + `/{id}`,
@@ -134,7 +134,7 @@ module.exports = [
         }
     },
 
-    // Delete a categorie by id
+    // Exclui pessoa
     {
         method: 'DELETE',
         path: URI + `/{id}`,
