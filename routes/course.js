@@ -6,7 +6,7 @@ const Moment = require('moment')
 const getCurrentDateWithoutTimezone = Moment().format('YYYY-MM-DDTHH:mm:ss')
 
 module.exports = [
-    // Pega todos os alunos
+    // Pega todos os cursos
     {
         method: 'GET',
         path: URI,
@@ -58,7 +58,7 @@ module.exports = [
         }
     },
 
-    // Cria nova Pessoa
+    // Cria novo Curso
     {
         method: 'POST',
         path: URI,
@@ -104,7 +104,7 @@ module.exports = [
         }
     },
 
-    //Atualiza pessoa por id
+    //Atualiza curso por id
     {
         method: 'PUT',
         path: URI + `/{id}`,
@@ -143,7 +143,7 @@ module.exports = [
         }
     },
 
-    // Exclui pessoa
+    // Exclui curso
     {
         method: 'DELETE',
         path: URI + `/{id}`,

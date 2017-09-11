@@ -3,7 +3,7 @@ const URI = `${CONSTANTS.URI}/token`
 const configjwt = require('../config/config-jwt')
 
 module.exports = [
-    // Pega todos os alunos
+    // Se as credenciais estiverem corretas, retorna token para ser usado no header
     {
         method: 'POST',
         path: URI,
@@ -17,11 +17,11 @@ module.exports = [
                     error: true,
                     data: 'Credenciais incorretas',
                     statusCode: 401,
-                    statusText: 'NOK',
+                    statusText: 'Not OK',
                 }).code(401)
             } else {
                 reply({
-                    error: true,
+                    error: false,
                     data: {
                         token: configjwt.token
                     },
