@@ -12,7 +12,7 @@
   "homepage": "https://github.com/iagocavalcante/w3-certificate-management#readme",
   "dependencies": {
     "hapi": "^16.4.1",
-    "hapi-auth-jwt2": "^7.3.0",
+    "hapi-auth-jwt2": "^8.0.0",
     "jsonwebtoken": "^7.4.1",
     "moment": "*",
     "mongoose": "*",
