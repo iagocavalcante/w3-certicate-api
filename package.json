@@ -13,7 +13,7 @@
   "dependencies": {
     "hapi": "^18.0.0",
     "hapi-auth-jwt2": "^9.0.0",
-    "jsonwebtoken": "^8.0.0",
+    "jsonwebtoken": "^9.0.0",
     "moment": "*",
     "mongoose": "*",
     "nodemon": "*"
